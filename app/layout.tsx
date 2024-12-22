@@ -1,6 +1,7 @@
 import './globals.css'
 import Header from '@/components/header'
 import { ThemeProvider } from "@/components/theme-provider"
+import Image from 'next/image'
 
 interface RootLayoutProps {
   children: React.ReactNode

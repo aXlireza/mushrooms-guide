@@ -17,7 +17,7 @@ export default function Header(): JSX.Element {
   ]
 
   return (
-    <header className="w-full p-4 flex justify-between items-center">
+    <header className="fixed z-50 w-full p-4 flex justify-between items-center">
       <nav className="bg-white/30 backdrop-blur-sm rounded-full px-1 py-1 border border-black">
         <ul className="flex">
           {menuItems.map(item => (
