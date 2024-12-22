@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 export default function Home() {
   return (
-    <main className="relative">
+    <section className="relative">
       {/* Hero */}
       <section className='min-h-screen sticky top-0 w-full flex items-center'>
         {/* Background Image */}
@@ -44,7 +44,7 @@ export default function Home() {
           <HeroCard />
         </div>
       </section>
-    </main>
+    </section>
   )
 }
 
