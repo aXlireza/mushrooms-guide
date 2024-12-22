@@ -20,7 +20,7 @@ export default function Header(): JSX.Element {
     <header className="w-full p-4 flex justify-between items-center">
       <nav className="bg-white/30 backdrop-blur-sm rounded-full px-1 py-1 border border-black">
         <ul className="flex">
-          {menuItems.map((item, index) => (
+          {menuItems.map(item => (
             <li key={item.href}>
               <Link 
                 href={item.href}

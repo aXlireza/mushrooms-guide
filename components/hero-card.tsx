@@ -8,7 +8,7 @@ interface HeroCardProps {
 
 export default function HeroCard({ className }: HeroCardProps) {
   return (
-    <div className="flex flex-col items-end gap-4 bg-card/10 backdrop-blur-md rounded-xl p-6 max-w-md w-full border border-white/20">
+    <div className={`${className} flex flex-col items-end gap-4 bg-card/10 backdrop-blur-md rounded-xl p-6 max-w-md w-full border border-white/20`}>
       <div className="flex items-center gap-2">
         <h2 className="text-xl font-medium text-white">شناسایی قارچ هوشمند</h2>
         <SunIcon className="w-6 h-6 text-coral-500" />
